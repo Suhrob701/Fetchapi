@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Fake Store Products</h1>
+        </header>
+        <main id="productContainer" class="product-container">
+            <!-- Карточки продуктов будут загружены сюда -->
+        </main>
+
+    </div>
+
+    <!-- Modal oyna -->
+    <button id="open-modal">🛒 Xaridlarimni ko‘rish</button>
+
+    <div id="qr-code-modal" class="modal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 1px solid #ccc;">
+        <h2>Mening xaridlarim</h2>
+        <ul id="modal-cart-list"></ul>
+        <p id="modal-total-price">Umumiy summa: $0.00</p>
+        <button id="close-modal">Yopish</button>
+    </div>
+    
+
+    <script src="main.js" defer></script>
+</body>
+</html>
